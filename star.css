@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'padding' sans-serif;
+    box-sizing: border-box;
+ }
+ .container{
+    width: 100%;
+    height: 700px;
+    min-height: 100vh;
+    background-image: url(IMG_5746.JPG);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 5%;
+ }
+ 
+ nav {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 10x;
+ 
+ }
+ 
+ nav ul{
+    list-style: none;
+    width: 50%;
+    text-align: center;
+    padding-right: 10px;
+ }
+ nav ul li{
+    display: inline-block;
+    margin: 1px 50px;
+ }
+ nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+ }
+ 
+ .content{
+    margin-top: 0%;
+    color:#fff;
+    max-width: 920px;
+ }
+ .content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+    
+ }
+ .content form{
+    display: flex;
+    align-items: center;
+    background-radius: 5px;
+    padding-top: 10px;
+    margin-top: 30px;
+ }
+ .content form input{
+    border:0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+ }
+ .content from .btn{
+    font-size: 15;
+    padding: 10px 30px;
+ 
+ }
+ .span{
+    color:orange;
+ }
+ .about{
+    width: 100%;
+    padding: 78px 0px;
+ }
+ .about img{
+    height: auto;
+ 
+ }
+ .about text{
+    width: 550px;
+ }
+ .main{
+    color: #fff;
+    width: 1130px;
+    max-width: 95%;
+    display:flex;
+    margin: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .about-text h1{
+    color: white;
+    font-size:80px;
+    text-transform:20px;
+ }
+ .about-text h5{
+    color: white;
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+ }
+ span{
+    color:orange;
+ }
+ .about-text.p{
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 28px;
+    font-size: 18;
+    margin-bottom: 45px;
+ }
+ 
